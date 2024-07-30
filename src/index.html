@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade3</title>
+</head>
+
+<body>
+    <form action="pay">
+
+        <div class="divMain">
+            <label for="valor">Valor </label>
+            <input type="text" name="valor" id="textField" required>
+
+            <div class="divRadio">
+                <input type="radio" name="paymentMethod" id="radioPix">
+                <label for="pixMethod">Pix</label>
+                <input type="radio" name="paymentMethod" id="radioCard">
+                <label for="cardMethod">Cartão de Crédito</label>
+            </div>
+
+            <div class="divButton">
+                <input type="button" value="Informar dados" id="btnDetails">
+            </div>
+        </div>
+
+        <div id="pix">
+            <div class="pixDetails">
+                <h2>PIX</h2>
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" maxlength="11">
+            </div>
+            <div class="divTotal">
+                <span><b>Total: </b>R$</span>
+                <span id="totalPix">0,00</span>
+            </div>
+            <div class="divPay">
+                <input type="button" value="Pagar" id="submitPix">
+            </div>
+        </div>
+
+        <div id="card">
+            <div class="cardDetails">
+                <h2>CARTÃO DE CRÉDITO</h2>
+                <div class="cardNumber">
+                    <label for="cardNumber">Número</label>
+                    <input type="text" name="cardNumber" id="cardNumber" maxlength="12">
+                    <span id="dollar"><img src="../images/dollar.svg" alt="flag"></span><span id="usdCircle"><img
+                            src="../images/usd-circle.svg" alt=""></span><br>
+                    <p id="errorCardNumber">Número de cartão inválido</p>
+                </div>
+                <div class="ownerName">
+                    <label for="cardOwner">Titular</label>
+                    <input type="text" name="cardOwner" id="cardOwner" maxlength="50">
+                </div>
+                <div class="cardKey">
+                    <label for="cardKey">Cód. Segurança</label>
+                    <input type="text" name="cardKey" id="cardKey" maxlength="3">
+                </div>
+                <div class="expireDate">
+                    <label for="expireDate">Vencimento</label>
+                    <input type="month" name="expireDate" id="expireDate">
+                </div>
+                <div class="parcelNumber">
+                    <label for="parcelNumber">Parcelas</label>
+                    <select name="parcelNumber" id="selectParcels">
+                        <option id="opt1" value="1x">1x</option>
+                        <option id="opt2" value="2x">2x</option>
+                        <option id="opt3" value="3x">3x</option>
+                        <option id="opt4" value="4x">4x</option>
+                        <option id="opt5" value="5x">5x</option>
+                    </select>
+                </div>
+                <div class="parcels">
+                    <div class="interestFree">
+                        <span id="1x">
+                            1x R$0,00
+                        </span><span id="2x">
+                            2x R$0,00
+                        </span><span id="3x">
+                            3x R$0,00
+                        </span>
+                    </div>
+                    <div class="interest">
+                        <span id="4x">
+                            4x R$0,00
+                        </span><span id="5x">
+                            5x R$0,00
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="divTotal">
+                <span><b>Total: </b>R$</span>
+                <span id="totalCard">0,00</span>
+            </div>
+            <div class="divPay">
+                <input type="button" value="Pagar" id="submitCard">
+            </div>
+        </div>
+    </form>
+    <script src="../jquery.js"></script>
+    <script src="../src/script.js"></script>
+</body>
+
+</html>

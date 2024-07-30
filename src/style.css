@@ -1,0 +1,101 @@
+form {
+	padding: 10px 5px;
+	max-width: 20%;
+}
+
+/* -------------------- */
+.divMain {
+	margin-bottom: 30px;
+}
+
+/* -------------------- */
+.divRadio {
+	margin-top: 15px;
+}
+
+.divButton {
+	margin-top: 30px;
+}
+
+.divButton input {
+	width: 150px;
+	font-size: medium;
+}
+
+/* -------------------- */
+#pix {
+	margin-top: 30px;
+	display: none;
+}
+
+.pixDetails {
+	border-style: solid;
+	padding: 15px;
+}
+
+.pixDetails input {
+	margin-bottom: 30px;
+}
+
+.divTotal {
+	display: flex;
+	justify-content: right;
+}
+
+/* -------------------- */
+#errorCardNumber {
+	display: none;
+}
+
+#dollar {
+	display: none;
+}
+
+#usdCircle {
+	display: none;
+}
+
+#card {
+	margin-top: 30px;
+	display: none;
+}
+
+.cardDetails {
+	border: solid;
+	padding: 15px;
+}
+
+.cardDetails img {
+	max-width: 20px;
+}
+
+.ownerName {
+	margin-top: 15px;
+}
+
+.cardKey {
+	margin-top: 15px;
+}
+
+.expireDate {
+	margin-top: 15px;
+}
+
+.parcelNumber {
+	margin-top: 15px;
+}
+
+.parcels {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.parcels span {
+	margin-right: 15px;
+}
+
+/* -------------------- */
+.divPay input {
+	width: 100px;
+	font-size: medium;
+}
