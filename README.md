@@ -1,4 +1,4 @@
-UC14 - Exercise 3
+UC13 - Exercise 3
 
 Baseando-se nos wireframes, construa uma página HTML e programe os seguintes comportamentos:
 Ao clicar em Informar dados, caso o campo valor esteja em branco, deverá ser emitido um alerta ou ser mostrada na página uma mensagem informando que o campo deve ser preenchido.
@@ -15,14 +15,17 @@ Ao clicar no botão Pagar, deve-se mostrar apenas uma mensagem de sucesso.
 Em nenhuma condição, ambos os painéis (Pix e Cartão de crédito) podem aparecer ao mesmo tempo.
  
 Entrega
+
 No espaço dedicado à entrega da atividade, envie um arquivo compactado (RAR, ZIP ou 7z) com os arquivos .html, .css e .js desenvolvidos.
  
 Dica de leitura
+
 Para esta atividade, leia os seguintes materiais:
 Linguagem de estilo CSS: conceito, seletores, combinação de seletores e propriedades
 Bibliotecas de front-end: tecnologias, aplicabilidade e jQuery
 Testes de página web: ferramentas de depuração
  
 Avaliação
+
 Nesta atividade, você será avaliado no indicador:
 Desenvolve comportamento dinâmico de interação com usuário de acordo com linguagem de script front-end e requisitos do sistema.
